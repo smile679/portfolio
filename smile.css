@@ -1,0 +1,143 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: roboto;
+  padding-bottom: 2000px;
+  background-color: black;
+}
+nav {
+  background-color: rgb(15, 68, 85);
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 20;
+}
+nav .nav-con ul a{
+  color: white;
+  text-decoration: none;
+  padding: 12px 15px;
+  font-size: 20px;
+  font-weight: 500;
+}
+nav .nav-con ul a:hover{
+background-color: rgb(7, 48, 61);
+padding: 12px 15px;
+border-radius: 5px;
+transition: 0.20s;
+}
+.nav-con ul li{
+  margin-left: 20px;
+}
+.nav-con ul li:first-child{
+  margin-left: 20px;
+}
+nav .nav-con {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+nav ul {
+  display: inline-flex;
+  list-style-type: none;
+}
+.portfolio {
+  display: flex;
+  flex: 1;
+  padding-left: 10px;
+}
+.nav-con .portfolio a{
+  font-size: 45px;
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+}
+.img {
+  background-image: url(programming-background-collage.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 1100px;
+  position: relative;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(15, 67, 85, 0.87);
+  position: absolute;
+  top: 28%;
+  left: 38%;
+  width: 350px;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.profile img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  object-fit: cover;
+  object-position: center;
+}
+.name {
+  font-size: 45px;
+  color: white;
+  font-weight: 700;
+  margin: 10px 0 0 0;
+}
+.front {
+  font-size: 35px;
+  font-weight: 700;
+  color: rgb(2, 138, 184);
+}
+.butt-one {
+  background-color: rgb(2, 138, 184);
+  border: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 45px;
+  width: 200px;
+  border-radius: 15px;
+  margin: 10px 0;
+}
+.butt-two {
+  background-color: rgb(236, 3, 3);
+  border: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 45px;
+  width: 200px;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+.butt-one:hover {
+  transition: 0.20s;
+  background-color: transparent;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+}
+.butt-two:hover {
+  transition: 0.20s;
+  background-color: rgb(255, 11, 11);
+}
+iframe {
+  position: absolute;
+  left: 30%;
+  bottom: -75%;
+  height: 350px;
+  width: 600px;
+  border-width: 3px;
+  border-style: dashed;
+  border-color:  rgb(255, 11, 11);
+  padding: 3px 3px;
+}
